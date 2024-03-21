@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body, button {
+    width: 100%;
+    margin: 0;
+    font-family: Raleway;
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0; 
+}
+
+.banner {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/images/banner.png), linear-gradient(rgba(0, 0, 0, 1)0%, rgb(15, 44, 58)50%, rgba(0, 0, 0, 1)100%);
+    background-size: cover;
+    width: 100%;
+    height: 605px;
+    border-bottom: solid 1px #33A8DB80;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 268px;
+    height: 260px;
+    margin: 30px 0 0 29%;
+}
+
+.banner-content {
+    margin-bottom: 45px;
+}
+
+.logo img {
+    width: 248px;
+    height: 214px;
+}
+
+.banner-content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 15px 0 0 15%;
+}
+
+.banner-content p {
+    width: 600px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.banner-content button {
+    width: 326px;
+    height: 57px;
+    border: solid 2px blue;
+    text-transform: uppercase;   
+    font-weight: 900;
+    font-size: 16px;
+    background: #31A8DD;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-slice: 1;
+    margin: 25px 0 0 25%;
+    letter-spacing: 0.3em;
+}
+
+#course-content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 792px;
+    height: 380px;
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+#course-content h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    color: #33A8DB;
+    letter-spacing: 0.19em;
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+
+#course-content p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.module {
+    display: flex;
+    width: 500px;
+    height: 35px;
+    border-radius: 57px;
+    border: solid 1px #33A8DB;
+    background-color: #252525;
+    box-shadow: -5px 7px 4px 0px #00000066 inset;
+    justify-content: center;
+    padding-top: 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 23px;
+    margin-left: 20%;
+}
+
+.module span {
+    color: #33A8DB;
+    margin-right: 5px;
+}
+
+#transform-world {
+    width: 100%;
+    height: 560px;
+    border: solid 1px #33A8DB80;
+    margin-top: 5%;
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#transform-world p {
+    position: absolute;
+    width: 244px;
+    height: 141px;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+    top: 1300px;
+    left: 198px;
+}
+
+#professional-challenges {
+    border-bottom: solid 1px #33A8DB80;
+}
+
+#professional-challenges h2 {
+    width: 752px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 700;
+    color: #33A8DB;
+    letter-spacing: 0.19em;
+    margin-left: 24%;
+    margin-top: 7%;
+}
+
+#professional-challenges img {
+    margin-left: 24%;
+    margin-top: 3%; 
+}
+
+#professional-challenges p {
+    width: 792px;
+    height: 76px;
+    margin-left: 24%;
+    margin-top: 3%; 
+    color: white;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+footer {
+    height: 170px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+}
+
+footer img {
+    margin-top: 4%;
+    margin-left: 40%;
+}
+
+footer p {
+    color: white;
+    margin: 0 0 0 40%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #33A8DB;
+    font-weight: bold;
+}
+
+
+
