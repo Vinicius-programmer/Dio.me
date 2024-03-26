@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    width: 100%;
+}
+
+header {
+    display: inline-grid;
+    width: 100%;
+    grid-template-rows: 56px;
+    grid-template-columns: 24px 90px 1050px 57px 35px 35px 35px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+    padding: 0 10px 0 5px;
+}
+
+#item-03 {
+    display: inline-flex;
+}
+
+#item-03 input {
+    width: 348px;
+    height: 40px;
+    border: solid 1px #CCCCCC;
+}
+
+#item-03 div {
+    display: flex;
+    width: 57px;
+    height: 38px;
+    border: solid 1px #CCCCCC;
+    background-color: #F8F8F8;
+    justify-content: center;
+    align-items: center;
+}
+
+#item-04 {
+    width: 25px;
+}
+
+#item-05 {
+    width: 25px;
+}
+
+#item-06 {
+    width: 35px;
+    margin-left: 20px;
+}
+
+aside {
+    height: 900px;
+    width: 218px;
+    display: inline-grid;
+    grid-template-columns: 24px 150px;
+    grid-template-rows: repeat(10, 24px);
+    gap: 20px 15px;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+aside p {
+    height: 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+main {
+    position: absolute;
+    width: 1125px;
+    height: 900px;
+    background-color: #f5f5f5;
+    top: 56px;
+    left: 218px;
+    display: grid;
+    grid-template-columns: repeat(4, 282px);
+    grid-template-rows: repeat(4, 262px);
+    padding: 35px 35px;
+}
+
+.item-main {
+    display: grid;
+    grid-template-rows: 140px 42px repeat(2, 14px);
+    row-gap: 10px;
+    justify-items: center;
+}
+
+.main-img {
+    width: 250px;
+    height: 140px;
+}
+
+.main-description {
+    width: 250px;
+    display: inline-flex;
+    justify-items: center;
+    align-items: center;
+    column-gap: 10px;
+    text-wrap: wrap;
+}
+
+.title-description {
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+}
+
+.details {
+    font-weight: 400;
+    font-size: 12px;
+    color: #515151;
+}
